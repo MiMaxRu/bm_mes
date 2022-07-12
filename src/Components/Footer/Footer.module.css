@@ -1,0 +1,20 @@
+footer {
+    background-color: rgb(58, 65, 63);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+footer :focus {
+    height: 600px;
+  }
+
+  footer:hover{
+    background-color: rgb(86, 92, 90);
+   height: 600px;
+    /* transform: translateX(10px); */
+    transition: 0.5s;
+  }
