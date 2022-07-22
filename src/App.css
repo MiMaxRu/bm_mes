@@ -8,10 +8,9 @@
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-
 }
 
 body{
   background-image: url('img/bacground.jpg');
-  scroll-behavior: auto;
+  
 }

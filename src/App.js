@@ -11,6 +11,7 @@ import Profile from './Components/Content/Profile/Profile';
 import Footer from './Components/Footer/Footer';
 import News from './Components/Content/News/News';
 
+
 function App(props) {
 
   return (
@@ -23,8 +24,8 @@ function App(props) {
         <div className='App-wrapper-contet'>
           <Routes>
             <Route path="/home" element={<Home />} />
-            <Route path="/dialogs" element={<Dialogs state={props.stateData.profilePage}/>} />
-            <Route path="/profile" element={<Profile state={props.stateData.messagePage}/>} />
+            <Route path="/dialogs" element={<Dialogs state={props.stateData.dialogPage}/>} />
+            <Route path="/profile" element={<Profile state={props.stateData.profilePage} addPost={props.addPost}/>} />
             <Route path="/news" element={<News />} />
           </Routes>
         </div>
